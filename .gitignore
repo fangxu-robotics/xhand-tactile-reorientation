@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+*.ipynb_checkpoints
+
+# C++ / CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+*.o
+*.so
+*.a
+
+# Model checkpoints and heavy assets — link externally or attach to a Release
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.usd
+*.usda
+*.usdc
+*.h5
+*.hdf5
+*.npz
+*.pkl
+
+# Raw logs
+logs/
+runs/
+events.out.tfevents.*
+
+# Video — demos are hosted on YouTube, never committed here
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.gif
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp

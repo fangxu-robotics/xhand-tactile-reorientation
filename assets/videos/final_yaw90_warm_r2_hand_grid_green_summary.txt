@@ -1,0 +1,12 @@
+task=Isaac-XHand-Reorient-Sponge-Left-Play-v0
+checkpoint=/home/fang/inhand_reorientation/logs/rsl_rl/xhand1_left_reorient_sponge_stage3/2026-09-08_21-14-25_yaw90_warm_r2/model_4699.pt
+arm_motion=none
+cam=grid
+target_face=green
+video_length_steps=600 (dt=0.0333s)
+steps=600
+hold_success=35
+dropped=0
+time_out=0
+episodes=35
+video=demos/final_yaw90_warm_r2_hand_grid_green-step-0.mp4

@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "In-Hand Reorientation with the XHand1"
+abstract: >-
+  Reinforcement learning for in-hand object reorientation on a 12-DoF RobotEra XHand1
+  dexterous hand. A PPO policy trained in Isaac Lab across 4096 parallel environments
+  flips a two-face sponge 180 degrees in an upturned palm and holds it, reaching 70%
+  hold success under full domain randomization, and replays without retraining on a
+  Franka-mounted variant of the same hand.
+authors:
+  - family-names: Xu
+    given-names: Fang
+license: MIT
+keywords:
+  - dexterous manipulation
+  - in-hand reorientation
+  - reinforcement learning
+  - Isaac Lab
+  - sim-to-real
+# Fill in when known. Do not publish with placeholder values.
+# version:
+# date-released:
+# doi:
+# url: https://github.com/fangxu-robotics/xhand-tactile-reorientation
