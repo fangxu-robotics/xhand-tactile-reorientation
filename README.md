@@ -131,8 +131,8 @@ With the Run B policy every flip request in the recorded videos succeeded: 35 / 
 hand and 12 / 12 on the Franka-mounted hand at the close and top cameras. Run A holds the sponge just
 as reliably but flips more slowly — in its last two clips no episode finishes inside the 20 s window.
 
-Timestamps link into the comparison video. Per-clip replay metadata (task id, checkpoint path, camera
-preset) is kept in [`assets/videos/`](assets/videos); the full index is [docs/demos.md](docs/demos.md).
+Timestamps link into the comparison video. The full index, with chapter tables for both videos, is
+[docs/demos.md](docs/demos.md).
 
 <p align="center">
   <img src="assets/frames/frame_franka_close.jpg" width="49%" alt="Franka-mounted XHand1, close-up">
@@ -179,7 +179,6 @@ Details: [docs/methods.md](docs/methods.md)
 ```
 assets/figures/     training curves and throughput plots (PNG + SVG)
 assets/frames/      still frames from the demo videos
-assets/videos/      per-clip replay metadata (*_summary.txt); the videos themselves are on YouTube
 data/training_logs/ per-iteration rsl_rl logs (CSV) + curves.json used to build the figures
 docs/               methods, results, demo index, engineering log, interactive HTML report
 code/               training environment, replay and deployment scripts (see code/README.md)

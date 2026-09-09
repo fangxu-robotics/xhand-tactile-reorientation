@@ -8,9 +8,9 @@ changes, no cherry-picked episodes within a clip.
 | **[Main demo](https://youtu.be/teRxEV7sdbk)** | 2:19 | The Stage 4 policy on all four camera setups |
 | **[Policy comparison](https://youtu.be/-kGYakc2aPo)** | 5:05 | All twelve clips, grouped by policy |
 
-The MP4s are deliberately not committed to this repository. What lives in
-[`../assets/videos/`](../assets/videos) is the `*_summary.txt` for each clip: the exact task id,
-checkpoint path, camera preset and replay statistics it was generated from.
+The MP4s are deliberately not committed to this repository — video files bloat a git repo and are
+slow to clone. Every episode count in the tables below comes from the recording script's own replay
+statistics for that clip.
 
 All clips are 600 control steps (20 s at 30 Hz). Episodes are counted across the parallel
 environments in the clip, so a 16-hand grid accumulates many more episodes than a single
@@ -18,7 +18,7 @@ arm-mounted hand.
 
 ## Naming
 
-The `*_summary.txt` files follow the recording script's naming:
+Clips are named by the recording script as:
 
 ```
 final_yaw90_<policy>_<platform>_<camera>_<target>

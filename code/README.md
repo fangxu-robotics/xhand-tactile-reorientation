@@ -15,8 +15,8 @@ What the code consists of:
   conversion to USD (12 revolute joints, 13 bodies).
 - **Training** — `rsl_rl` PPO, run as detached `systemd` units per curriculum stage.
 - **Replay and recording** — `*-Play-v0` variants with a two-tone sponge and camera presets (`grid`,
-  `close`, `top`, `wide`), which produced every clip in the two demo videos and the
-  `*_summary.txt` files in [`../assets/videos/`](../assets/videos).
+  `close`, `top`, `wide`), which produced every clip in the two demo videos, together with the
+  per-clip replay statistics quoted in [docs/demos.md](../docs/demos.md).
 - **Open-loop export** — `export_trajectory.py` records closed-loop flips, scores 12 candidate
   episodes by replaying each open-loop on 64 freshly randomized sponges, and exports the best
   commanded-target trajectory.
